@@ -76,12 +76,12 @@ class CalculadoraNumeros extends StatelessWidget {
                   onPressed: () => print('0'),
                 ),
                 CalculatorButton(
-                  text: 'Decimal',
+                  text: 'Dec',
                   big: true,
                   onPressed: () => print('Operacion Decimal'),
                 ),
                 CalculatorButton(
-                  text: 'Binario',
+                  text: 'Bin',
                   big: true,
                   onPressed: () => print('Operacion Binaria'),
                 ),
