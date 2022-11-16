@@ -65,16 +65,15 @@ class CalculadoraNumeros extends StatelessWidget {
                   text: '3',
                   onPressed: () => print('3'),
                 ),
+                CalculatorButton(
+                  text: '0',
+                  onPressed: () => print('0'),
+                ),
               ],
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                CalculatorButton(
-                  text: '0',
-                  big: true,
-                  onPressed: () => print('0'),
-                ),
                 CalculatorButton(
                   text: 'Dec',
                   big: true,
